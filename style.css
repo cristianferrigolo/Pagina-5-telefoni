@@ -1,0 +1,86 @@
+/* Impostazioni generali della pagina */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Titolo principale */
+header h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin: 40px 0 20px 0;
+    color: #333;
+}
+
+/* Contenitore griglia dei prodotti */
+.shop-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Singola card prodotto */
+.product-card {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+    margin: 30px auto;
+    transition: transform 0.2s;
+}
+
+.product-card:hover {
+    transform: scale(1.02);
+}
+
+/* Immagini dei prodotti */
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Sezione opzioni */
+.options {
+    margin: 15px 0;
+    text-align: center;
+}
+
+.options label {
+    display: block;
+    margin: 8px 10px;
+}
+
+
+/* Prezzo */
+.price {
+    color: darkgreen;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 15px 0;
+}
+
+/* Bottone acquisto */
+.buy-button {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.buy-button:hover {
+    background-color: orange;
+}
